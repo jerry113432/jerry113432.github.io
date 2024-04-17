@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+header {
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    background-image: url(image/background.png);
+    background-size: cover;
+}
+
+.card {
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-color:  #ccc5b9;
+ 
+}
+
+#me {
+    position: relative;
+    top: 50px;
+    border-radius: 50%;
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+#profile {
+    font-size: 30px;
+    color: brown;
+}
+
+nav {
+    width: 100%;
+    background-color: #252422;
+    font-family: Arial;
+    text-align: right;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 14px 16px;
+    text-align: right;
+    color: white;
+}
+
+nav a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.left {
+    width: 750px;
+    height: 500px;
+    border: 2px solid black;
+    float: left;
+    border-radius: 15px;
+
+}
+
+.right {
+    width: 750px;
+    height: 500px;
+    border: 2px solid black;
+    float: right;
+    border-radius: 15px;
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.title {
+    position: absolute;
+    right: 500px;
+    top: 100px;
+}
+
+marquee {
+    width: 250px;
+    background-color: white;
+    position: relative;
+    top: 10px;
+    color: black;
+}
+
+#lineig {
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+
+#experience,#skills,#intro,#other,#basketball{
+    font-size: 30px;
+    color: brown;
+}
+
+#pic{
+    border-radius: 15px;
+}
+
+#mus {
+    font-size: 15px;
+    float: right;
+}
+
+#skills ul {
+    border: brown solid 2px;
+    width: 500px;
+}
+
+#skills li {
+    margin: 3px;
+    width: 450px;
+    border-right-style: solid;
+    border-right-color: red;
+}
+
+.c {
+    animation: bar1 5s ease-out;
+    border-right-width: 200px;
+}
+
+.py {
+    animation: bar2 5s ease-out;
+    border-right-width: 10px;
+}
+
+.ht {
+    animation: bar1 5s ease-out;
+    border-right-width: 200px;
+}
+
+.cs {
+    animation: bar3 5s ease-out;
+    border-right-width: 70px;
+}
+
+.JSP {
+    animation: bar2 5s ease-out;
+    border-right-width: 10px;
+}
+
+@keyframes bar1{
+    from{
+        border-right-width: 0px;
+    }
+    to {
+        border-right-width: 200px;
+    }
+}
+
+@keyframes bar2{
+    from{
+        border-right-width: 0px;
+    }
+    to {
+        border-right-width: 10px;
+    }
+}
+
+@keyframes bar3{
+    from{
+        border-right-width: 0px;
+    }
+    to {
+        border-right-width: 70px;
+    }
+}
